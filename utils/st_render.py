@@ -60,7 +60,7 @@ def show_dashboard_page():
 		color='un',
 		title='Distribuição do saldo medido por grupo', 
 		width=800, 
-		#color_discrete_sequence=CATEGORICAL_GROUPS[query_data['un'].nunique()]
+		color_discrete_sequence=CATEGORICAL_GROUPS[query_data['un'].nunique()]
 	).update_layout(**LAYOUT_SPECS)
 	# Render plot
 	st.plotly_chart(fig, use_container_width=True)
