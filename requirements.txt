@@ -1,0 +1,8 @@
+json
+re
+numpy
+pandas
+matplotlib
+plotly
+session_info
+streamlit==1.8.1
