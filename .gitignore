@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Confidential data
-data/
+*.jpeg
 
 #MacOS files
 .DS_Store
