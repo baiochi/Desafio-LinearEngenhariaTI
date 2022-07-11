@@ -38,6 +38,8 @@ CATEGORICAL_GROUPS = {
     5 : [CYAN, OCEAN, GRAY, YELLOW, DARK],
     6 : [CYAN, GRAY, MAGENTA, YELLOW, DARK, OCEAN],
     7 : [CYAN, GRAY, MAGENTA, YELLOW, DARK, OCEAN, GREEN],
+    8 : [CYAN, GRAY, MAGENTA, YELLOW, DARK, OCEAN, GREEN, BLACK], # That's too much!
+    9 : [CYAN, GRAY, MAGENTA, YELLOW, DARK, OCEAN, GREEN, BLACK, RED], # Watching the world burn
     'political': [CYAN, RED]
 }
 
@@ -62,6 +64,7 @@ LAYOUT_SPECS = {
         'font_family' : 'Lato-Regular',
         'font_color' : '#000000',
         'font_size' : 13,
+        'traceorder' : 'normal',
     },
     'xaxis' : {
         'titlefont_family' : 'Lato-Italic',
